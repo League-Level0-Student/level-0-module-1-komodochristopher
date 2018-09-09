@@ -12,13 +12,14 @@ public class remarkable {
 			if (name.equalsIgnoreCase("nathan")) {
 				JOptionPane.showMessageDialog(null, "you like fortnite");
 			}
-				if(name.equalsIgnoreCase("adam")) {
-		        JOptionPane.showMessageDialog(null,"adamberg vs rainbowlishes land adamberg says make adamberg win  blah blah blah!");
+			if (name.equalsIgnoreCase("adam")) {
+				JOptionPane.showMessageDialog(null,
+						"adamberg vs rainbowlishes land adamberg says make adamberg win  blah blah blah!");
 			}
-				if(name.equalsIgnoreCase("samuel")) {
-		        JOptionPane.showMessageDialog(null,"minecraft is awesome- mine diamonds........is that all you like.........- -_    (^_^)");
-		 
+			if (name.equalsIgnoreCase("samuel")) {
+				JOptionPane.showMessageDialog(null,
+						"minecraft is awesome- mine diamonds........is that all you like.........- -_    (^_^)");
+			}
 		}
-		}
-}
+	}
 }
