@@ -20,7 +20,7 @@ public class SecretMessageBox {
 	public static void main(String[] args) {
 
 		// 1. Set a password in a String variable
-		String password = "78880fR";
+		String password = "788807890000fR";
 		// 2. Using a pop-up, ask the first person for a secret message and store it in
 		// a variable
 		String secretmessage = JOptionPane.showInputDialog(null, "what is your secret message");
@@ -30,12 +30,12 @@ public class SecretMessageBox {
 		JOptionPane.showMessageDialog(null, " you only can see the secret message if you guess the password");
 		String guess = JOptionPane.showInputDialog(null, "what is the password");
 		// 4. If their guess matches the password, show them the secret message
-		if (guess == password) {
+		if (guess.equals(password)) {
 			JOptionPane.showMessageDialog(null, secretmessage);
-		}
-		else {
+		} else {
 
-		// 5. If the password does not match, pop-up "INTRUDER!!"
-JOptionPane
+			// 5. If the password does not match, pop-up "INTRUDER!!"
+			JOptionPane.showMessageDialog(null, "INTRUDER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+		}
 	}
 }
