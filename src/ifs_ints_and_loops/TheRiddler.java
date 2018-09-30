@@ -10,19 +10,19 @@ public class TheRiddler {
 	public static void main(String[] args) {
 
 		// 1. Make a variable to hold the score
-		String score = 0;
+		for(int i=0;i<10;i++){
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 		JOptionPane.showInputDialog(null,
 				"what person is the leader of _________  army and has fought against rainbowlishes land?");
 		// 4. If they got the answer right, pop up "correct!" and increase the score by
 		// one
-		String answer = JOptionPane.showMessageDialog(null, "adam");
+		String answer = JOptionPane.showInputDialog(null, "adam and Bob");
 
-		// 5. Otherwise, say "wrong" and tell them the answer
-
+		// 5. Otherwise, say "wrong" and tell them the right answer of
 		// 6. Add some more riddles
-
+JOptionPane.showMessageDialog(null,"Incorrect!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 		// 2. Make a pop up to show the score.
 
 	}
+}
 }
